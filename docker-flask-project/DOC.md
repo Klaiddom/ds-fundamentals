@@ -223,7 +223,8 @@ from datetime import datetime as dt
 
 from settings.constants import DB_URL
 from core import db
-from models import Actor, Movie
+from models.actor import Actor
+from models.movie import Movie
 
 
 app = Flask(__name__, instance_relative_config=False)
@@ -240,7 +241,8 @@ from datetime import datetime as dt
 
 from settings.constants import DB_URL
 from core import db
-from models import Actor, Movie
+from models.actor import Actor
+from models.movie import Movie
 
 
 app = Flask(__name__, instance_relative_config=False)
